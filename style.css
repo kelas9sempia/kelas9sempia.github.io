@@ -37,7 +37,7 @@ img {
     padding: 4px 5px;
 }
 
-ul {
+.link ul {
     list-style-type: none;
     right: 0;
     position: absolute;
