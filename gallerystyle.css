@@ -1,0 +1,121 @@
+body {
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+.header {
+    height: 55px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    box-sizing: border-box;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.header .logokelas {
+    display: flex;
+}
+
+.header .kelas {
+    display: inline-block;
+    font-size: 35px;
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    padding: 3px 5px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.header .logokelas p {
+    font-size: 35px;
+    color: rgb(236, 236, 236);
+    margin: 0;
+}
+
+.logo {
+    height: 45px;
+    padding: 4px 5px;
+}
+
+.isi {
+    width: 1326px;
+    height: auto;
+    float: none;
+    margin: auto;
+}
+
+.foto {
+    margin: 20px 10px;
+    float: left;
+    width: auto;
+    height: 300px;
+    border-radius: 20px;
+    border: 1px solid rgb(201, 201, 201);
+    overflow: hidden;
+}
+
+.jogjaboy {
+    width: 420px;
+}
+
+.foto:hover {
+    border-color: rgb(48, 48, 48);
+}
+
+.foto img {
+    width: 420px;
+    height: auto;
+    margin: auto;
+    border-radius: 20px 20px 0 0;
+}
+
+.foto .desc {
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+    margin: auto;
+    padding-top: 7px;
+}
+
+.jogjaboy img{
+    width: 320px;
+    height: auto;
+    margin-left: 50px;
+    border-radius: 0;
+}
+
+.masak .desc {
+    padding: 30px;
+}
+
+.jogja .desc {
+    margin: auto;
+    padding: 17px;
+}
+
+
+
+
+
+
+
+
+/* float clear */
+.foto:before,
+.foto:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.foto:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.foto {
+    *zoom: 1;
+}

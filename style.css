@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    background-color: rgb(236, 236, 236);
+}
+
+.header {
+    height: 55px;
+    background-color: rgb(48, 48, 48);
+    display: flex;
+    box-sizing: border-box;
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+.header .logokelas {
+    display: flex;
+}
+
+.header .kelas {
+    display: inline-block;
+    font-size: 35px;
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    padding: 3px 5px;
+    font-family: 'Vazirmatn', sans-serif;
+}
+
+.header .logokelas p {
+    font-size: 35px;
+    color: rgb(236, 236, 236);
+    margin: 0;
+}
+
+img {
+    height: 45px;
+    padding: 4px 5px;
+}
+
+.link {
+    margin: 2px auto;
+    right: 0;
+    position: absolute;
+    box-sizing: border-box;
+}
+
+.link a {
+    display: inline-block;
+    font-size: 25px;
+    color: rgb(235, 235, 235);
+    text-decoration: none;
+    font-family: 'Vazirmatn', sans-serif;
+    padding: 7px;
+}
+
+.link  a:hover {
+    color: rgb(199, 199, 199);
+}
+
+/* .isi .foto {
+    background-image: url(foto/drama.jpg);
+    width: 1040px;
+    height: 546px;
+    margin: 320px auto 0 auto;
+    border-radius: 15px;
+    display: block;
+}
+
+.isi p {
+    text-align: center;
+    color: rgb(48, 48, 48);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 18px;
+} */
+
+.isi .content h1 {
+    text-align: center;
+    color:  rgb(48, 48, 48);
+    margin-top: 200px;
+    font-size: 70px;
+}
+
+/* Responsive */
+
+/* ukuran tablet */
+@media screen and (max-width: 768px) {
+    /* .isi .foto {
+        width: 500px;
+        height: 250px;
+        background-size: 100%;
+    } */
+
+    .isi .content h1 {
+        font-size: 50px;
+    }
+}
+
+/* ukuran mobile */
+@media screen and (max-width: 576px) {
+    /* .isi .foto {
+        margin-top: 170px;
+        width: 380px;
+        height: 198px;
+        background-size: 100%;
+    } */
+
+    .isi .content h1 {
+        font-size: 50px;
+    }
+     
+}

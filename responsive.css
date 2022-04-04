@@ -1,0 +1,145 @@
+/* reponsive */
+/* mobile */
+@media only screen and (max-width: 810px) {
+    .isi {
+        width: auto;
+    }
+
+    .foto {
+        width: 350px;
+        height: auto;
+        margin: 20px auto;
+        float: none;
+    }
+
+    .foto img {
+        display: block;
+        height: 212px;
+        width: auto;
+        margin: 0 auto 0 auto;
+    }
+
+    .masak img {
+        height: 150px;
+        width: auto;
+    }
+
+    .jogja img {
+        height: 188px;
+        width: auto;
+    }
+
+    .jogjaboy img {
+        height: 262px;
+        width: auto;
+    }
+
+    .foto .desc {
+        padding: 10px 0 10px 0;
+    }
+
+    .masak .desc {
+        padding-top: 17px;
+    }
+
+    .jogja .desc {
+        margin-top: 2px;
+    }
+     
+}
+
+/* tablet */
+@media only screen and (min-device-width: 810px) and (max-width: 1200px) {
+    .isi {
+        width: auto;
+    }
+
+    .foto {
+        width: 495px;
+        height: auto;
+        margin: 20px auto;
+        float: none;
+    }
+
+    .foto img {
+        display: block;
+        height: 300px;
+        width: auto;
+        margin-top: 0;
+        padding-top: 0;
+    }
+
+    .foto .desc {
+        padding: 7px;
+    }
+
+    .masak img {
+        height: 223px;
+        width: auto;
+    }
+
+    .jogja img {
+        height: 267px;
+        width: auto;
+    }
+    .jogjaboy img {
+        height: 372px;
+        width: auto;
+        margin: 0 auto 10px auto;
+    }
+
+    .foto .desc {
+        padding-top: auto;
+    }
+
+    .jogjaboy .desc {
+        padding-top:0;
+    }
+}
+
+@media only screen and (min-width:1200px) and (max-width: 1320px) {
+    .isi {
+        width: 1140px;
+        margin: 10px auto;
+        padding: 5px;
+    }
+
+    .foto {
+        display: inline-block;
+        width: 540px;
+        height: 380px;
+        margin: 10px;
+        float: none;
+        overflow: hidden;
+    }
+
+    .foto img {
+        height: 330px;
+        width: auto;
+    }
+
+    .masak img {
+        height: 245px;
+        width: auto;
+    }
+
+    .jogja img {
+        height: 293px;
+        width: auto;
+    }
+
+    .mix img {
+        height: 310px;
+        width: auto;
+    }
+
+    .harigurumix img {
+        height: 310px;
+        width: auto;
+    }
+
+    .foto .desc {
+        padding-bottom: 10px;
+    }
+
+}
