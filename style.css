@@ -83,29 +83,9 @@ img {
 
 /* Responsive */
 
-/* ukuran tablet */
-@media screen and (max-width: 768px) {
-    /* .isi .foto {
-        width: 500px;
-        height: 250px;
-        background-size: 100%;
-    } */
-
-    .isi .content h1 {
-        font-size: 50px;
-    }
-}
-
 /* ukuran mobile */
 @media screen and (max-width: 576px) {
-    /* .isi .foto {
-        margin-top: 170px;
-        width: 380px;
-        height: 198px;
-        background-size: 100%;
-    } */
-
-    .isi .content h1 {
+.isi .content h1 {
         font-size: 50px;
     }
      
