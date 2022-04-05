@@ -1,10 +1,14 @@
 body {
     margin: 0;
-    background-color: rgb(236, 236, 236);
+    background-color: rgb(245, 245, 245);
 }
 
+
+/* header */
+
 .header {
-    height: 55px;
+    height: 57px;
+    width: 100%;
     background-color: rgb(48, 48, 48);
     display: flex;
     box-sizing: border-box;
@@ -15,30 +19,36 @@ body {
 
 .header .logokelas {
     display: flex;
+    margin-top: 1px;
 }
 
 .header .kelas {
     display: inline-block;
-    font-size: 35px;
+    font-size: 38px;
     color: rgb(235, 235, 235);
     text-decoration: none;
-    padding: 3px 5px;
+    padding: 2px 5px;
     font-family: 'Vazirmatn', sans-serif;
 }
 
 .header .logokelas p {
-    font-size: 35px;
+    font-size: 40px;
     color: rgb(236, 236, 236);
-    margin: 0;
+    margin-top: -5px;
 }
 
-ul {
+img {
+    height: 45px;
+    padding: 4px 5px;
+}
+
+.link ul {
     list-style-type: none;
     right: 0;
     position: absolute;
     box-sizing: border-box;
     display: flex;
-    margin: 10px;
+    margin: 15px 10px;
 }
 
 .link a {
@@ -53,25 +63,24 @@ ul {
     color: rgb(199, 199, 199);
 }
 
-.logo {
-    height: 45px;
-    padding: 4px 5px;
-}
+
+/* isi */
 
 .isi {
-    width: 1326px;
+    width: 1350px;
     height: auto;
     float: none;
     margin: auto;
 }
 
 .foto {
-    margin: 20px 10px;
+    margin: 20px 15px;
     float: left;
     width: auto;
     height: 300px;
     border-radius: 20px;
-    border: 1px solid rgb(201, 201, 201);
+    background-color: rgb(236, 236, 236);
+    box-shadow: 0 4px 8px rgb(173, 173, 173);
     overflow: hidden;
 }
 
@@ -79,15 +88,12 @@ ul {
     width: 420px;
 }
 
-.foto:hover {
-    border-color: rgb(48, 48, 48);
-}
-
 .foto img {
     width: 420px;
     height: auto;
     margin: auto;
     border-radius: 20px 20px 0 0;
+    padding: 0;
 }
 
 .foto .desc {
