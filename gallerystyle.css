@@ -67,7 +67,7 @@ img {
 /* isi */
 
 .isi {
-    width: 1350px;
+    width: 1352px;
     height: auto;
     float: none;
     margin: auto;
@@ -82,12 +82,11 @@ img {
     border-radius: 20px;
     background-color: rgb(236, 236, 236);  
     overflow: hidden;
-    transition: transform .2s; /* Animation */
+    box-sizing: border-box;
 }
 
 .foto:hover {
-    transform: scale(1.1);
-    box-shadow: 0 4px 8px rgb(173, 173, 173);
+    border: 1px solid rgb(77, 77, 77);
 }
 
 .jogjaboy {
