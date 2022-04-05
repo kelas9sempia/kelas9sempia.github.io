@@ -71,6 +71,7 @@ img {
     height: auto;
     float: none;
     margin: auto;
+    overflow: hidden;
 }
 
 .foto {
@@ -79,9 +80,14 @@ img {
     width: auto;
     height: 300px;
     border-radius: 20px;
-    background-color: rgb(236, 236, 236);
-    box-shadow: 0 4px 8px rgb(173, 173, 173);
+    background-color: rgb(236, 236, 236);  
     overflow: hidden;
+    transition: transform .2s; /* Animation */
+}
+
+.foto:hover {
+    transform: scale(1.1);
+    box-shadow: 0 4px 8px rgb(173, 173, 173);
 }
 
 .jogjaboy {
