@@ -87,7 +87,7 @@ img {
 
 /* ukuran mobile */
 @media screen and (max-width: 576px) {
-.isi .content h1 {
+    .isi .content h1 {
         font-size: 50px;
     }
      

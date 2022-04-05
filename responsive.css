@@ -1,6 +1,10 @@
 /* reponsive */
 /* mobile */
 @media only screen and (max-width: 810px) {
+    .header .logokelas p {
+        margin: auto;
+    }
+
     .isi {
         width: auto;
     }
