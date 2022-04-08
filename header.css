@@ -31,7 +31,7 @@
 .header .logokelas p {
     font-size: 40px;
     color: rgb(236, 236, 236);
-    margin-top: -5px;
+    margin: auto 0;
 }
 
 img {
@@ -71,7 +71,7 @@ img {
 
 .link .pemisah {
     font-size: 25px;
-    margin-top: -6px;
+    margin: auto 0;
     color: rgb(235, 235, 235);
 }
 
