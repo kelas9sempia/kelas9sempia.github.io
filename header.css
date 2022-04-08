@@ -31,7 +31,7 @@
 .header .logokelas p {
     font-size: 40px;
     color: rgb(236, 236, 236);
-    margin: auto 0;
+    margin-top: -5px;
 }
 
 img {
@@ -69,15 +69,13 @@ img {
     color: rgb(166, 247, 166);
 }
 
-.link .pemisah {
-    font-size: 25px;
-    margin: auto 0;
-    color: rgb(235, 235, 235);
-}
-
 
 /* Responsive */
 @media only screen and (max-width: 385px) {
+    .header .logokelas p {
+        margin-top: 0;
+    }
+
     .link ul {
         margin-top: 17px;
     }
@@ -87,7 +85,4 @@ img {
         padding: 4px;
     }
 
-    .link .pemisah {
-        font-size: 23px;
-    }
 }
