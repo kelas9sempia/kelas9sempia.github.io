@@ -3,76 +3,142 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-.header {
-    height: 57px;
-    width: 100%;
-    background-color: rgb(48, 48, 48);
-    display: flex;
+.isi {
+    width: 1150px;
+    margin: 10px auto;
+}
+
+.isi .profile {
+    width: 350px;
+    height: 450px;
+    background-color: rgb(235, 235, 235);
+    margin: 25px 15px;
+    border-radius: 30px;
+    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
+    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+    padding-top: 30px;
+    position: relative;
+    float: left;
     box-sizing: border-box;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
 }
 
-.header .logokelas {
-    display: flex;
-    margin-top: 1px;
+.isi .walikelas {
+    float: none;
+    display: block;
+    margin: 40px auto 20px auto;
 }
 
-.header .kelas {
-    display: inline-block;
-    font-size: 38px;
-    color: rgb(235, 235, 235);
-    text-decoration: none;
-    padding: 2px 5px;
-    font-family: 'Vazirmatn', sans-serif;
+.foto {
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    box-shadow: 0 4px 8px rgb(180, 180, 180);
+    overflow: hidden;
+    border-radius: 50%;
 }
 
-.header .logokelas p {
-    font-size: 40px;
-    color: rgb(236, 236, 236);
-    margin-top: -5px;
+.foto img {
+    width: 120px;
+    height: 120px;
+    padding: 0;
 }
 
-img {
-    height: 45px;
-    padding: 4px 5px;
-}
-
-.link ul {
-    list-style-type: none;
-    right: 0;
-    position: absolute;
-    box-sizing: border-box;
-    display: flex;
-    margin: 15px 10px;
-}
-
-.link a {
-    font-size: 20px;
-    color: rgb(235, 235, 235);
-    text-decoration: none;
-    font-family: 'Vazirmatn', sans-serif;
-    padding: 7px;
-}
-
-.link a:hover {
-    color: rgb(199, 199, 199);
-}
-
-.isi .content h1 {
+.nama .name {
+    font-size: 25px;
     text-align: center;
-    color:  rgb(48, 48, 48);
-    font-size: 70px;
-    margin-top: 208px;
+    font-family: arial, sans-serif;
+    color: rgb(34, 34, 34);
+    margin: 25px auto 20px auto;
+    width: fit-content;
+    border-bottom: 3px solid transparent;
 }
 
-/* Responsive */
+.nama .jabatan {
+    margin-top: -15px;
+    font-size: 15px;
+    text-align: center;
+    font-family: arial, sans-serif;
+    color: rgb(131, 131, 131);
 
-/* ukuran mobile */
-@media screen and (max-width: 576px) {
-    .isi .content h1 {
-            font-size: 50px;
-        }
-         
+}
+
+.nama .name:hover {
+    border-bottom: 3px solid rgb(99, 99, 99);
+    transition: 0.1s;
+}
+
+.quotes {
+    font-size: 20px;
+    text-align: center;
+    font-family: 'Maven Pro', sans-serif;
+    width: 280px;
+    margin: auto;
+    padding: 1px 10px;
+}
+
+.social a {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    background-color: #DD2A7B;
+    padding: 10px;
+    font-size: 20px;
+    text-align: center;
+    text-decoration: none;
+    position: absolute;
+    bottom: 20px;
+    left: 140px;
+}
+
+.social a:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    color: white;
+    margin-top: 21px;
+}
+
+
+  /* Responsive */
+  /* Mobile */
+  @media only screen and (max-width: 1079px) {
+      .isi {
+          width: 380px;
+          margin: 10px auto;
+          padding: 0;
+      }
+
+      .profile {
+        float: none;
+      }
+  }
+
+  /* Tablet */
+  @media only screen and (min-width: 1080px) and (max-width: 1149px) {
+      .isi {
+          width: 760px;
+      }
+  }
+
+
+
+
+  /* float clear */
+.profile:before,
+.profile:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.profile:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.profile {
+    *zoom: 1;
 }

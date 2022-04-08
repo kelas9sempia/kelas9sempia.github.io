@@ -3,63 +3,6 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-.header {
-    height: 57px;
-    width: 100%;
-    background-color: rgb(48, 48, 48);
-    display: flex;
-    box-sizing: border-box;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
-
-.header .logokelas {
-    display: flex;
-    margin-top: 1px;
-}
-
-.header .kelas {
-    display: inline-block;
-    font-size: 38px;
-    color: rgb(235, 235, 235);
-    text-decoration: none;
-    padding: 2px 5px;
-    font-family: 'Vazirmatn', sans-serif;
-}
-
-.header .logokelas p {
-    font-size: 40px;
-    color: rgb(236, 236, 236);
-    margin-top: -5px;
-}
-
-img {
-    height: 45px;
-    padding: 4px 5px;
-}
-
-.link ul {
-    list-style-type: none;
-    right: 0;
-    position: absolute;
-    box-sizing: border-box;
-    display: flex;
-    margin: 15px 10px;
-}
-
-.link a {
-    font-size: 20px;
-    color: rgb(235, 235, 235);
-    text-decoration: none;
-    font-family: 'Vazirmatn', sans-serif;
-    padding: 7px;
-}
-
-.link a:hover {
-    color: rgb(199, 199, 199);
-}
-
 /* .isi .foto {
     background-image: url(foto/drama.jpg);
     width: 1040px;

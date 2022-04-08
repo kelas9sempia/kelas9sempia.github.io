@@ -19,6 +19,11 @@
         margin: 0 auto 0 auto;
     }
 
+    .mix img {
+        height: 200px;
+        width: auto;
+    }
+
     .masak img {
         height: 160px;
         width: auto;
@@ -31,6 +36,11 @@
 
     .jogjaboy img {
         height: 262px;
+        width: auto;
+    }
+
+    .harigurumix img {
+        height: 200px;
         width: auto;
     }
 
