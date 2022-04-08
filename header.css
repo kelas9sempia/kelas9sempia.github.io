@@ -72,10 +72,6 @@ img {
 
 /* Responsive */
 @media only screen and (max-width: 385px) {
-    .header .logokelas p {
-        margin-top: 0;
-    }
-
     .link ul {
         margin-top: 17px;
     }
@@ -84,5 +80,11 @@ img {
         font-size: 18px;
         padding: 4px;
     }
+}
 
+/* mobile */
+@media only screen and (max-width: 576px) {
+    .header .logokelas p {
+        margin-top: 0;
+    }
 }

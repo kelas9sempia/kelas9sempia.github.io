@@ -3,22 +3,6 @@ body {
     background-color: rgb(245, 245, 245);
 }
 
-/* .isi .foto {
-    background-image: url(foto/drama.jpg);
-    width: 1040px;
-    height: 546px;
-    margin: 320px auto 0 auto;
-    border-radius: 15px;
-    display: block;
-}
-
-.isi p {
-    text-align: center;
-    color: rgb(48, 48, 48);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-} */
-
 .isi .content h1 {
     text-align: center;
     color:  rgb(48, 48, 48);
