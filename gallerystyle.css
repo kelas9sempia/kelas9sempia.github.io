@@ -24,7 +24,7 @@ body {
 }
 
 .foto:hover {
-    box-shadow: 0 4px 8px rgb(110, 110, 110);
+    box-shadow: 0 4px 8px rgb(153, 153, 153);
     transition: 0.2s;
 }
 
