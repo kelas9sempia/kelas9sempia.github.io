@@ -6,12 +6,9 @@
     box-sizing: border-box;
     position: -webkit-sticky; /* Safari */
     position: sticky;
+    z-index: 999;
     top: 0;
     box-shadow: 0 2px 8px rgb(170, 170, 170);
-}
-
-.profiles {
-    position: relative;
 }
 
 .header .logokelas {
