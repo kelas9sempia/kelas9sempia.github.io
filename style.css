@@ -10,17 +10,7 @@ body {
     margin-top: 145px;
 }
 
-.isi .content p {
-    font-size: 70px;
-    font-family: 'Caveat', cursive;
-    text-align: center;
-    color: #13805A;
-    position: absolute;
-    bottom: 20px;
-    left: 0;
-    right: 0;
-    margin: 0;
-}
+
 
 /* Responsive */
 
