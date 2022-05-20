@@ -103,7 +103,6 @@ body {
 @media only screen and (max-width: 1079px) {
   .isi {
     width: 380px;
-    margin: 10px auto;
     padding: 0;
   }
 
