@@ -1,138 +1,133 @@
 body {
-    margin: 0;
-    background-color: rgb(245, 245, 245);
+  margin: 0;
+  background-color: rgb(245, 245, 245);
 }
 
 .isi {
-    width: 1150px;
-    margin: 10px auto;
+  width: 1150px;
+  margin: 95px auto;
 }
 
 .isi .profile {
-    width: 350px;
-    height: 450px;
-    background-color: rgb(235, 235, 235);
-    margin: 25px 15px;
-    border-radius: 30px;
-    box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2),
-    -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
-    padding-top: 30px;
-    position: relative;
-    float: left;
-    box-sizing: border-box;
+  width: 350px;
+  height: 450px;
+  background-color: rgb(235, 235, 235);
+  margin: 25px 15px;
+  border-radius: 30px;
+  box-shadow: 12px 12px 24px 0 rgba(0, 0, 0, 0.2), -12px -12px 24px 0 rgba(255, 255, 255, 0.5);
+  padding-top: 30px;
+  position: relative;
+  float: left;
+  box-sizing: border-box;
 }
 
 .isi .walikelas {
-    float: none;
-    display: block;
-    margin: 40px auto 20px auto;
+  float: none;
+  display: block;
+  margin: 40px auto 20px auto;
 }
 
 .foto {
-    width: 120px;
-    height: 120px;
-    margin: auto;
-    box-shadow: 0 4px 8px rgb(180, 180, 180);
-    overflow: hidden;
-    border-radius: 50%;
+  width: 120px;
+  height: 120px;
+  margin: auto;
+  box-shadow: 0 4px 8px rgb(180, 180, 180);
+  overflow: hidden;
+  border-radius: 50%;
 }
 
 .foto img {
-    width: 120px;
-    height: 120px;
-    padding: 0;
+  width: 120px;
+  height: 120px;
+  padding: 0;
 }
 
 .nama .name {
-    font-size: 25px;
-    text-align: center;
-    font-family: arial, sans-serif;
-    color: rgb(34, 34, 34);
-    margin: 25px auto 20px auto;
-    width: fit-content;
-    border-bottom: 3px solid transparent;
+  font-size: 25px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: rgb(34, 34, 34);
+  margin: 25px auto 20px auto;
+  width: fit-content;
+  border-bottom: 3px solid transparent;
+  transition: 0.1s;
 }
 
 .nama .jabatan {
-    margin-top: -15px;
-    font-size: 15px;
-    text-align: center;
-    font-family: arial, sans-serif;
-    color: rgb(131, 131, 131);
-
+  margin-top: -15px;
+  font-size: 15px;
+  text-align: center;
+  font-family: arial, sans-serif;
+  color: rgb(131, 131, 131);
 }
 
 .nama .name:hover {
-    border-bottom: 3px solid rgb(99, 99, 99);
-    transition: 0.1s;
+  border-bottom: 3px solid rgb(99, 99, 99);
+  /* transition: 0.1s; */
 }
 
 .quotes {
-    font-size: 20px;
-    text-align: center;
-    font-family: 'Maven Pro', sans-serif;
-    width: 280px;
-    margin: auto;
-    padding: 1px 10px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Maven Pro", sans-serif;
+  width: 280px;
+  margin: auto;
+  padding: 1px 10px;
 }
 
 .social a {
-    width: 45px;
-    height: 45px;
-    border-radius: 50%;
-    background-color: #DD2A7B;
-    padding: 10px;
-    font-size: 20px;
-    text-align: center;
-    text-decoration: none;
-    position: absolute;
-    bottom: 20px;
-    left: 140px;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #dd2a7b;
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+  text-decoration: none;
+  position: absolute;
+  bottom: 20px;
+  left: 140px;
 }
 
 .social a:hover {
-    opacity: 0.7;
+  opacity: 0.7;
 }
 
 .fa-instagram {
-    color: white;
-    margin-top: 21px;
+  color: white;
+  margin-top: 21px;
 }
 
-
-  /* Responsive */
-  /* Mobile */
-  @media only screen and (max-width: 1079px) {
-      .isi {
-          width: 380px;
-          margin: 10px auto;
-          padding: 0;
-      }
-
-      .profile {
-        float: none;
-      }
+/* Responsive */
+/* Mobile */
+@media only screen and (max-width: 1079px) {
+  .isi {
+    width: 380px;
+    margin: 10px auto;
+    padding: 0;
   }
 
-  /* Tablet */
-  @media only screen and (min-width: 1080px) and (max-width: 1149px) {
-      .isi {
-          width: 760px;
-      }
+  .profile {
+    float: none;
   }
+}
 
+/* Tablet */
+@media only screen and (min-width: 1080px) and (max-width: 1149px) {
+  .isi {
+    width: 760px;
+  }
+}
 
-
-
-  /* float clear */
+/* float clear */
 .profile:before,
 .profile:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .profile:after {
-    clear: both;
+  clear: both;
 }
 
 /**
@@ -140,5 +135,5 @@ body {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .profile {
-    *zoom: 1;
+  *zoom: 1;
 }

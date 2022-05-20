@@ -1,86 +1,78 @@
 body {
-    margin: 0;
-    background-color: rgb(245, 245, 245);
+  margin: 0;
+  background-color: rgb(245, 245, 245);
 }
 
-
 .isi {
-    width: 1352px;
-    height: auto;
-    float: none;
-    margin: auto;
-    overflow: hidden;
+  width: 1352px;
+  height: auto;
+  float: none;
+  margin: 60px auto 0 auto;
+  overflow: hidden;
 }
 
 .foto {
-    margin: 20px 15px;
-    float: left;
-    width: auto;
-    height: 300px;
-    border-radius: 20px;
-    background-color: rgb(236, 236, 236);  
-    overflow: hidden;
-    box-sizing: border-box;
+  margin: 20px 15px;
+  float: left;
+  width: auto;
+  height: 300px;
+  border-radius: 20px;
+  background-color: rgb(236, 236, 236);
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 .foto:hover {
-    box-shadow: 0 4px 8px rgb(153, 153, 153);
-    transition: 0.2s;
+  box-shadow: 0 4px 8px rgb(153, 153, 153);
+  transition: 0.2s;
 }
 
 .jogjaboy {
-    width: 420px;
+  width: 420px;
 }
 
 .foto img {
-    width: 420px;
-    height: auto;
-    margin: auto;
-    border-radius: 20px 20px 0 0;
-    padding: 0;
+  width: 420px;
+  height: auto;
+  margin: auto;
+  border-radius: 20px 20px 0 0;
+  padding: 0;
 }
 
 .foto .desc {
-    text-align: center;
-    color: rgb(48, 48, 48);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 18px;
-    margin: auto;
-    padding-top: 7px;
+  text-align: center;
+  color: rgb(48, 48, 48);
+  font-family: "Source Sans Pro", sans-serif;
+  font-size: 18px;
+  margin: auto;
+  padding-top: 7px;
 }
 
-.jogjaboy img{
-    width: 320px;
-    height: auto;
-    margin-left: 50px;
-    border-radius: 0;
+.jogjaboy img {
+  width: 320px;
+  height: auto;
+  margin-left: 50px;
+  border-radius: 0;
 }
 
 .masak .desc {
-    padding: 30px;
+  padding: 30px;
 }
 
 .jogja .desc {
-    margin: auto;
-    padding: 17px;
+  margin: auto;
+  padding: 17px;
 }
-
-
-
-
-
-
-
 
 /* float clear */
 .foto:before,
 .foto:after {
-    content: " "; /* 1 */
-    display: table; /* 2 */
+  content: " "; /* 1 */
+  display: table; /* 2 */
 }
 
 .foto:after {
-    clear: both;
+  clear: both;
 }
 
 /**
@@ -88,5 +80,5 @@ body {
  * Include this rule to trigger hasLayout and contain floats.
  */
 .foto {
-    *zoom: 1;
+  *zoom: 1;
 }

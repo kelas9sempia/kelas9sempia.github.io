@@ -1,27 +1,24 @@
 body {
-    margin: 0;
-    background-color: rgb(245, 245, 245);
+  margin: 0;
+  background-color: rgb(245, 245, 245);
 }
 
 .isi .content h1 {
-    text-align: center;
-    color:  rgb(48, 48, 48);
-    font-size: 70px;
-    margin-top: 145px;
+  text-align: center;
+  color: rgb(48, 48, 48);
+  font-size: 70px;
+  margin-top: 250px;
 }
-
-
 
 /* Responsive */
 
 /* ukuran mobile */
 @media screen and (max-width: 576px) {
-    .isi .content h1 {
-        font-size: 50px;
-    }
+  .isi .content h1 {
+    font-size: 50px;
+  }
 
-    .isi .content p {
-        font-size: 60px;
-    }
-     
+  .isi .content p {
+    font-size: 60px;
+  }
 }
