@@ -64,6 +64,10 @@ body {
   padding: 17px;
 }
 
+.graduation img {
+  margin-top: -24px;
+}
+
 /* float clear */
 .foto:before,
 .foto:after {
